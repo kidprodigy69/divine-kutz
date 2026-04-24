@@ -99,7 +99,8 @@ export default function Footer() {
             <p className="font-body text-xs tracking-luxury uppercase text-gold mb-2">Hours</p>
             <p className="font-body text-xs text-cream-muted">Mon: Closed</p>
             <p className="font-body text-xs text-cream-muted">Tue: 11am – 5pm</p>
-            <p className="font-body text-xs text-cream-muted">Wed – Thu: 9:30am – 7:30pm</p>
+            <p className="font-body text-xs text-cream-muted">Wed: 9:30am – 7:30pm</p>
+            <p className="font-body text-xs text-cream-muted">Thu: 9:30am – 7:30pm</p>
             <p className="font-body text-xs text-cream-muted">Fri: 9am – 8pm</p>
             <p className="font-body text-xs text-cream-muted">Sat: 9am – 6pm</p>
             <p className="font-body text-xs text-cream-muted">Sun: 10am – 3pm</p>
