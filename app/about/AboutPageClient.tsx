@@ -111,10 +111,10 @@ export default function AboutPageClient() {
               <div className="gold-rule w-12" />
 
               {[
-                "John Simpson, Owner of Divine Kutz, has spent over 30 years mastering the art of barbering. From today's trending fades to timeless classic cuts, John brings unmatched skill and passion to every single client who sits in his chair.",
-                "Divine Kutz Grooming Lounge is more than a barbershop — it's a luxury experience. Walk-in feeling like royalty, walk out looking your absolute best. That's the Divine Kutz promise.",
-                '"My goal is always customer satisfaction, and keeping you looking your best!" — John\'s personal commitment to excellence has built a loyal following across the entire Greater Charlotte Area.',
-                'As a proud Black-owned business, Divine Kutz represents community, craft, and culture. Every cut is a statement. Every client leaves feeling their best.',
+                "Divine Kutz Grooming Lounge is not your average barbershop — it is a private, luxury suite owned and operated exclusively by John Simpson himself. Every appointment is a 1-on-1 experience curated solely for you, from the moment you walk in to the moment you leave.",
+                "With over 30 years of mastery behind the chair, John brings an unmatched level of precision and intentionality to every single cut. No distractions. No crowds. Just you, your barber, and an environment built around your comfort, your style, and your standards.",
+                '"My goal has always been your complete satisfaction — and keeping you looking your absolute best." That personal commitment is why clients across the Greater Charlotte Area return again and again.',
+                'As a proud Black-owned business, Divine Kutz is a reflection of community, craft, and culture. When you book with John, you are not just getting a haircut — you are investing in an experience that honors your time and your image.',
               ].map((para, i) => (
                 <motion.p
                   key={i}
@@ -136,7 +136,7 @@ export default function AboutPageClient() {
                 transition={{ duration: 0.6, delay: 0.5 }}
                 className="flex flex-wrap gap-3 mt-2"
               >
-                {['Free Parking', 'Complimentary Beverages', 'Snacks Provided', 'Walk-ins Welcome', 'After-Hours Appts'].map((perk) => (
+                {['Free Parking', 'Complimentary Beverages', 'Snacks Provided', 'By Appointment Only', 'After-Hours Sessions'].map((perk) => (
                   <span
                     key={perk}
                     className="font-body text-xs text-gold border border-gold/30 px-3 py-1.5 tracking-wide"

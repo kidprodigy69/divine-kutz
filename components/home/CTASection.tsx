@@ -70,7 +70,7 @@ export default function CTASection() {
           transition={{ duration: 0.6, delay: 0.5 }}
           className="font-body text-[11px] text-onyx/50 mt-8"
         >
-          Walk-ins welcome · After-hours appointments available · Free parking
+          Appointments required · After-hours sessions available · Free parking
         </motion.p>
       </div>
     </section>

@@ -21,13 +21,13 @@ const services = [
 ]
 
 const hours = [
-  { day: 'Monday', time: '9:00 AM – 8:00 PM' },
-  { day: 'Tuesday', time: '9:00 AM – 8:00 PM' },
-  { day: 'Wednesday', time: '9:00 AM – 8:00 PM' },
-  { day: 'Thursday', time: '9:00 AM – 8:00 PM' },
+  { day: 'Monday', time: 'Closed' },
+  { day: 'Tuesday', time: '11:00 AM – 5:00 PM' },
+  { day: 'Wednesday', time: '9:30 AM – 7:30 PM' },
+  { day: 'Thursday', time: '9:30 AM – 7:30 PM' },
   { day: 'Friday', time: '9:00 AM – 8:00 PM' },
   { day: 'Saturday', time: '9:00 AM – 6:00 PM' },
-  { day: 'Sunday', time: 'Closed' },
+  { day: 'Sunday', time: '10:00 AM – 3:00 PM' },
 ]
 
 type FormState = {
