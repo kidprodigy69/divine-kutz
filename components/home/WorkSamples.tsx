@@ -5,12 +5,12 @@ import Link from 'next/link'
 import { motion } from 'framer-motion'
 
 const works = [
-  { src: '/portfolio/work-sample-1.jpg', alt: 'Precision fade cut — Divine Kutz Charlotte', span: 'row-span-2' },
-  { src: '/portfolio/work-sample-2.jpg', alt: 'Taper fade with lineup — Divine Kutz Charlotte', span: '' },
-  { src: '/gallery/gallery-1.jpg', alt: 'Creative color design cut — Divine Kutz Charlotte', span: '' },
-  { src: '/portfolio/work-sample-3.jpg', alt: "Clean fade and beard maintenance — Divine Kutz Charlotte", span: '' },
-  { src: '/portfolio/work-sample-4.jpg', alt: 'Classic barber cut — Divine Kutz Charlotte', span: 'row-span-2' },
-  { src: '/gallery/gallery-2.jpg', alt: 'Fresh cut with detailed design — Divine Kutz Charlotte', span: '' },
+  { src: '/gallery/IMG_7054.JPG', alt: 'Fresh cut — Divine Kutz Charlotte', span: 'row-span-2' },
+  { src: '/gallery/IMG_7069.JPG', alt: 'Intricate hair design — Divine Kutz Charlotte', span: '' },
+  { src: '/gallery/IMG_8456.JPG', alt: 'Clean fade and beard — Divine Kutz Charlotte', span: '' },
+  { src: '/gallery/IMG_8458.JPG', alt: 'Precision fade — Divine Kutz Charlotte', span: '' },
+  { src: '/portfolio/work-sample-4.jpg', alt: 'Signature locs with taper — Divine Kutz Charlotte', span: 'row-span-2' },
+  { src: '/gallery/IMG_8459.JPG', alt: '360 waves with skin fade — Divine Kutz Charlotte', span: '' },
 ]
 
 export default function WorkSamples() {
