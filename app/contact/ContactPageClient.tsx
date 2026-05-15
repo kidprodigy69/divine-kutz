@@ -4,7 +4,7 @@ import { useState } from 'react'
 import { motion } from 'framer-motion'
 import { Phone, MapPin, Clock, Check } from 'lucide-react'
 import { InstagramIcon, FacebookIcon } from '@/components/SocialIcons'
-import { supabase } from '@/lib/supabase'
+import { getSupabase } from '@/lib/supabase'
 
 const services = [
   "Men's Kut / Beard Maintenance",
@@ -53,7 +53,9 @@ export default function ContactPageClient() {
     setSubmitting(true)
     setError('')
     try {
-      const { error: sbError } = await supabase
+      const sb = getSupabase()
+      if (!sb) throw new Error('Supabase not configured')
+      const { error: sbError } = await sb
         .from('contact_submissions')
         .insert([{ ...form, created_at: new Date().toISOString() }])
       if (sbError) throw sbError
