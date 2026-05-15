@@ -11,7 +11,6 @@ const galleryImages = [
   { src: '/gallery/gallery-5.jpg', alt: "Men's cut and beard maintenance — Divine Kutz Charlotte", size: 'normal' },
   { src: '/gallery/gallery-6.jpg', alt: 'Expert barbering technique — Divine Kutz Charlotte', size: 'normal' },
   { src: '/gallery/gallery-7.jpg', alt: 'Signature cut — Divine Kutz Charlotte', size: 'normal' },
-  { src: '/gallery/gallery-8.jpg', alt: 'Premium grooming result — Divine Kutz Charlotte', size: 'tall' },
   { src: '/gallery/IMG_7054.JPG', alt: 'Fresh cut — Divine Kutz Charlotte', size: 'normal' },
   { src: '/gallery/IMG_7069.JPG', alt: 'Precision fade — Divine Kutz Charlotte', size: 'tall' },
   { src: '/gallery/IMG_7071.JPG', alt: 'Sharp lineup — Divine Kutz Charlotte', size: 'normal' },
@@ -20,6 +19,7 @@ const galleryImages = [
   { src: '/gallery/IMG_8459.JPG', alt: 'Master barber work — Divine Kutz Charlotte', size: 'normal' },
   { src: '/gallery/3B07E16F-B7AB-4E7F-AA64-C9B9C35ACD20.JPG', alt: 'Premium grooming — Divine Kutz Charlotte', size: 'normal' },
   { src: '/gallery/3B664463-A6B9-473B-9BDB-13236129CFC5-COLLAGE.JPEG', alt: 'Signature cuts collage — Divine Kutz Charlotte', size: 'tall' },
+  { src: '/gallery/photo 1.JPG', alt: 'Fresh cut — Divine Kutz Charlotte', size: 'normal' },
 ]
 
 const portfolioImages = [
