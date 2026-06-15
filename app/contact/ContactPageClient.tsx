@@ -56,7 +56,7 @@ export default function ContactPageClient() {
       const sb = getSupabase()
       if (!sb) throw new Error('Supabase not configured')
       const { error: sbError } = await sb
-        .from('contact_submissions')
+        .from('divine_kutz_contact_submissions')
         .insert([{ ...form, created_at: new Date().toISOString() }])
       if (sbError) throw sbError
       setSubmitted(true)
