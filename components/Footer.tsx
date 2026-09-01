@@ -56,6 +56,7 @@ export default function Footer() {
             { href: '/services', label: 'Services' },
             { href: '/gallery', label: 'Gallery' },
             { href: '/reviews', label: 'Reviews' },
+  { href: '/blog', label: 'Journal' },
             { href: '/contact', label: 'Contact' },
           ].map(({ href, label }) => (
             <Link
